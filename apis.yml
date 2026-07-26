@@ -1,7 +1,15 @@
 aid: ecomexperts
 name: EcomExperts
-description: EcomExperts is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EcomExperts is a Latin American ecommerce ERP and technology platform that helps online
+  sellers manage, synchronize, and automate their stores from a single screen. It centralizes
+  omnichannel operations across marketplaces and sales channels (including multi-account
+  Mercado Libre management), synchronizes prices and stock in real time, and issues electronic
+  invoices automatically in bulk. Delivered as a SaaS application with a hosted dashboard and a
+  7-day free trial, EcomExperts operates across Argentina, Chile, Mexico, Uruguay, Colombia, and
+  Peru. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. EcomExperts does not currently publish a public developer platform, API reference,
+  SDKs, or OpenAPI, so this profile captures company identity and public-surface signals only.
 url: https://raw.githubusercontent.com/api-evangelist/ecomexperts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://v.fastcdn.co/u/60689644/65646531-0-rueda-web-agosto-202.png
 tags:
 - Company
+- Ecommerce
+- ERP
+- Omnichannel
+- Inventory Management
+- Electronic Invoicing
+- Marketplace Integration
+- Mercado Libre
+- SaaS
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://ecomexperts.com
+  url: https://www.ecomexperts.com
+- type: SignUp
+  url: https://app.ecomexperts.com/registro
+- type: PrivacyPolicy
+  url: https://www.ecomexperts.com/politicasdeprivacidad
+- type: TermsOfService
+  url: https://www.ecomexperts.com/terminosycondiciones
+- type: DomainSecurity
+  url: security/ecomexperts-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
